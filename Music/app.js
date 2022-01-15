@@ -1,4 +1,6 @@
 var ctx = document.getElementById('myChart').getContext('2d');
+ctx.canvas.parentNode.style.width = "800px";
+ctx.canvas.parentNode.style.height = "600px";
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
@@ -10,11 +12,15 @@ var myChart = new Chart(ctx, {
       datasets: [
         { 
           data: [8914,4524,4293,3700,3571,3556,2495,2398,2323,2236,2225,2059,2019,2017,1916,1904,1867,1815,1771,1769],
-          label: "Total",
-          borderColor: "rgb(62,149,205)",
-          backgroundColor: "rgb(62,149,205,0.1)",
-          borderWidth:2
+          label: "Sportify Stream by Atrists",
+          borderColor: "rgb(201,76,76,0.3)",
+          backgroundColor: "rgb(51,255,51,10)",
+          borderWidth:1
         }
       ]
     },
   });
+
+
+
+  
