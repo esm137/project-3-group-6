@@ -81,7 +81,7 @@ function btnClick() {
         ];
 console.log(bar_chart)
         var layout = {
-            title: myRegion + " - " + myDate + " Most Streamed Songs",
+            title: myRegion + " - " + myDate + " Most Streamed Artists",
             margin: { t: 30, l: 150 }
 
         }
